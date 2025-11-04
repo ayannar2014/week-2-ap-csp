@@ -17,3 +17,9 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+question1 = input("What is your favorite color?:  ")
+question2 = input("What is your favorite mythical animal?:  ")
+brandname = question1.capitalize() + " " + question2.capitalize()
+print(f"Your beer's name should be: {question1.capitalize()} {question2.capitalize()}") 
+print(f'"{brandname}"')
